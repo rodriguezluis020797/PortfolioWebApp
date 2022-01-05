@@ -1,5 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 
+body{
+  background-color: #FF0000;
+}
+
 /* Provide sufficient contrast against white background */
 a {
   color: #0366d6;
@@ -10,7 +14,12 @@ code {
 }
 
 .btn-primary {
+  color: #FF0000;
+  background-color: #fff;
+  border-color: #FF0000;
+}
+.btn-primary:hover {
   color: #fff;
-  background-color: #1b6ec2;
-  border-color: #1861ac;
+  background-color: #FF0000;
+  border-color: #fff;
 }
