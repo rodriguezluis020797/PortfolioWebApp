@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
 body{
-  background-color: #FF0000;
+  background-color: #8D021F;
 }
 
 /* Provide sufficient contrast against white background */
@@ -25,12 +25,12 @@ code {
 
 /*Button Customization*/
 .btn-primary {
-  color: #FF0000;
+  color: #8D021F;
   background-color: #fff;
-  border-color: #FF0000;
+  border-color: #8D021F;
 }
 .btn-primary:hover {
   color: #fff;
-  background-color: #FF0000;
+  background-color: #8D021F;
   border-color: #fff;
 }
