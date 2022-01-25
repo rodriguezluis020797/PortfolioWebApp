@@ -7,13 +7,16 @@ body{
 /* Provide sufficient contrast against white background */
 
 
-h1{
+h1, h4, h5{
   color: #fff;
 }
 
 a{
   color: #000;
   margin-right: 7px;
+  margin-bottom: 7px;
+  margin-left: 7px;
+  margin-top: 7px;
 }
 
 a:hover{
