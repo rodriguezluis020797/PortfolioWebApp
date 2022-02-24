@@ -19,7 +19,8 @@ namespace PortfolioWebApp.Models
         public DateTime DateTime { get; set; }
 
         public void assignNewObject(){
-            this.DateTime = DateTime.UtcNow.ToLocalTime();
+            // this.DateTime = TimeZoneInfo.ConvertTimeFromUtc(DateTime.UtcNow, TimeZoneInfo.FindSystemTimeZoneById("Pacific Standard Time"));
+            this.DateTime = DateTime.UtcNow;
         }
 
     }
